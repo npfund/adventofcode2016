@@ -1,7 +1,9 @@
 mod day1;
+mod day7;
 
 fn main() {
-    day1::run1_2();
+//    day1::run1_2();
+    day7::part1();
 }
 
 #[cfg(tests)]
