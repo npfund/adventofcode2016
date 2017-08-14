@@ -2,16 +2,8 @@
 
 mod day1;
 mod day7;
+mod day8;
 
 fn main() {
-//    day1::run1_2();
-    day7::part2();
-}
-
-#[cfg(tests)]
-mod tests {
-    #[test]
-    pub fn run1_1() {
-        day1::run1_1();
-    }
+    day8::parts1_and_2();
 }
